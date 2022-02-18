@@ -1,7 +1,8 @@
 class Programa:
-    def __init__(self, nome, ano):
+    def __init__(self, nome, ano, ator):
         self._nome = nome.title()
         self.ano = ano
+        self.ator_principal= ator
         self._likes = 0
 
     @property
